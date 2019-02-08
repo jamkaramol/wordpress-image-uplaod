@@ -11,7 +11,7 @@ add_shortcode('Show_uploaded_image', 'imageurl');
 
 
 function add_menu_to_admin_page(){
-        add_menu_page( 'Test Plugin Page', 'weekly Image Upload', 'manage_options', 'test-plugin', 'test_init' );
+        add_menu_page( 'Test Plugin Page', 'Image Upload', 'manage_options', 'test-plugin', 'test_init' );
 }
 
 function image_view()
